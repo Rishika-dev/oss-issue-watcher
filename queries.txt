@@ -3,3 +3,7 @@
 
 # Learning Equality: only unassigned "help wanted" issues may be claimed.
 org:learningequality is:issue is:open label:"help wanted" no:assignee
+
+# FOSSASIA eventyay (Django backend): new issues nobody has a linked PR for.
+# eventyay does not assign issues to newcomers; open a PR directly (link it with "Fixes #N").
+repo:fossasia/eventyay is:issue is:open no:assignee -linked:pr -label:"Discussion Required" -label:"On Hold" -label:wontfix -label:epic created:>=2026-09-27
