@@ -1,0 +1,5 @@
+# One GitHub issue search per line. Lines starting with # are ignored.
+# Syntax: https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests
+
+# Learning Equality: only unassigned "help wanted" issues may be claimed.
+org:learningequality is:issue is:open label:"help wanted" no:assignee
